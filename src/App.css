@@ -1,0 +1,162 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; }
+
+body {
+  font-family: "Inter", system-ui, Arial, sans-serif;
+  background: #f6f8fb;
+  color: #111;
+}
+
+.container { 
+  max-width: 960px; 
+  margin: 40px auto; 
+  padding: 0 16px; 
+}
+
+.card { 
+  background: #fff; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  margin-top: 10px;
+}
+
+.name {
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+
+/* Table */
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+th, td { 
+  padding: 12px 16px; 
+  border-bottom: 1px solid #e5e7eb; 
+  text-align: left; 
+}
+
+th { 
+  color: #6b7280; 
+  font-weight: bold; 
+}
+
+.badge { 
+  display: inline-block; 
+  padding: 2px 8px; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 999px; 
+  background: #fafafa; 
+  font-size: 12px; 
+}
+
+/* Buttons */
+.btn { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 6px; 
+  padding: 6px 12px;
+  margin: 5px; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 8px; 
+  background: #fff; 
+  cursor: pointer; 
+}
+
+.btn:hover { 
+  background: #f3f4f6; 
+}
+
+.btn.danger { 
+  color: #dc2626; 
+  border-color: #dc2626; 
+}
+
+.ico { 
+  width: 16px; 
+  height: 16px; 
+}
+
+/* Modals */
+.backdrop { 
+  position: fixed; 
+  inset: 0; 
+  background: rgba(0,0,0,.45); 
+  display: grid; 
+  place-items: center; 
+}
+
+.modal { 
+  width: calc(100% - 32px); 
+  max-width: 560px; 
+  background: #fff; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 14px; 
+}
+
+.modal header { 
+  padding: 12px 16px; 
+  border-bottom: 1px solid #e5e7eb; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
+.modal .box { 
+  padding: 16px; 
+}
+
+.share-card { 
+  display: flex; 
+  gap: 16px; 
+  align-items: center; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 10px; 
+  padding: 12px; 
+  background: #fafafa; 
+}
+
+.share-card .thumb { 
+  width: 96px; 
+  height: 96px; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 8px; 
+  object-fit: cover; 
+  background: #e9eef6; 
+}
+
+.actions { 
+  margin-top: 14px; 
+  display: flex; 
+  gap: 8px; }
+
+.col-product .prod {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.col-product .thumb {
+  width:100px; 
+  height:100px; 
+  flex:0 0 auto;
+  border:1px solid #e5e7eb; 
+  border-radius:8px; 
+  object-fit:cover; 
+  background:#e9eef6;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .col-product .prod{ 
+    grid-template-columns: 48px 1fr; 
+  }
+  .col-product .thumb { 
+    width: 48px; 
+    height: 48px; 
+    flex-basis: 48px; 
+  }
+}
