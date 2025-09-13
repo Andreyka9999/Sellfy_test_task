@@ -7,6 +7,13 @@
 ## Installing:
 1. Clone the repository from GitHub using command in CMD(terminal): <br>
    - git clone https://github.com/Andreyka9999/Sellfy_test_task.git
-2. Choose a correct directory using command
+2. Choose a correct directory using command:
    - cd -> |repository-name|
-4. npm install
+3. npm install
+
+## Project launch
+1. Using command:
+   - npm run dev <br>
+   Open the address displayed by the terminal (for example, http://localhost:5173
+2. 
+   
