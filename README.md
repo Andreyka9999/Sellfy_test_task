@@ -14,6 +14,9 @@
 ## Project launch
 1. Using command:
    - npm run dev <br>
-   Open the address displayed by the terminal (for example, http://localhost:5173
-2. 
+   Open the address displayed by the terminal (for example, http://localhost:5173)
+
+## Build
+1. Use a command:
+   - npm run build
    
