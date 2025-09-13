@@ -6,6 +6,6 @@
 
 ## Installing:
 1. Clone the repository from GitHub using command in CMD(terminal): <br>
-   git clone https://github.com/Andreyka9999/Sellfy_test_task.git
+   - git clone https://github.com/Andreyka9999/Sellfy_test_task.git
 2. cd -> |repository-name|
 3. npm install
